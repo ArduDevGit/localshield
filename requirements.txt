@@ -1,0 +1,22 @@
+# LocalShield — Python Privacy Toolkit 
+# Install all dependencies: pip install -r requirements.txt 
+  
+# Image metadata stripping (exif_strip.py) 
+Pillow>=9.0.0 
+  
+# File encryption with AES-256-GCM (file_encrypt.py) 
+cryptography>=38.0.0 
+  
+# PDF redaction (pdf_redact.py) 
+PyMuPDF>=1.21.0 
+  
+# CSV anonymization with realistic fake data (csv_anonymize.py) 
+Faker>=18.0.0 
+pandas>=1.5.0 
+  
+# Office document metadata wiping (meta_wipe.py) 
+python-docx>=0.8.11 
+openpyxl>=3.0.10 
+  
+# Testing (optional — only needed to run the test suite) 
+# pytest>=7.0.0 
